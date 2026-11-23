@@ -177,6 +177,25 @@ footer{font-size:.68rem}
 .life-copy h3 { margin-top: 8px }
 .life-copy .body-copy { margin: 12px 0 0 }
 
+.life-photo { margin-top: 16px }
+.life-photo summary {
+  width: fit-content;
+  color: var(--team-accent);
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.life-photo img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 520px;
+  object-fit: contain;
+  margin-top: 14px;
+  border-radius: 8px;
+}
+
 @media (max-width: 700px) {
   .life-entries { grid-template-columns: 1fr }
 }

@@ -96,6 +96,10 @@ function App() {
                 <p className="eyebrow">BAJA SAE · 2024–2026</p>
                 <h3>Blue Jay Racing</h3>
                 <p className="body-copy">I worked on chassis design and structural integration with the frame team.</p>
+                <details className="life-photo">
+                  <summary>See me in real life</summary>
+                  <img src={asset('blue-jay-racing-photo.jpg')} width="571" height="577" loading="lazy" alt="Casey driving the number 37 Blue Jay Racing Baja buggy" />
+                </details>
               </div>
             </article>
             <article className="life-card life-card-formula">
@@ -106,6 +110,10 @@ function App() {
                 <p className="eyebrow">FORMULA SAE · 2023–2024</p>
                 <h3>Virginia Motorsports</h3>
                 <p className="body-copy">I helped design and build the high-voltage battery pack for the team’s first electric race car.</p>
+                <details className="life-photo">
+                  <summary>See me in real life</summary>
+                  <img src={asset('virginia-motorsports-photo.jpg')} width="1347" height="1905" loading="lazy" alt="Casey sitting in Virginia Motorsports’ Formula SAE car in the garage" />
+                </details>
               </div>
             </article>
           </div>
